@@ -1,0 +1,61 @@
+CREATE SCHEMA
+Shapefile type: ArcZ
+Postgis type: MULTILINESTRING[2]
+SET
+SET
+BEGIN
+CREATE TABLE
+ALTER TABLE
+                    addgeometrycolumn                     
+----------------------------------------------------------
+ nhd.flowline.geom SRID:4269 TYPE:MULTILINESTRING DIMS:2 
+(1 row)
+
+COMMIT
+Shapefile type: ArcZ
+Postgis type: MULTILINESTRING[2]
+Shapefile type: PolygonZ
+Postgis type: MULTIPOLYGON[2]
+SET
+SET
+BEGIN
+CREATE TABLE
+ALTER TABLE
+                   addgeometrycolumn                    
+--------------------------------------------------------
+ nhd.waterbody.geom SRID:4269 TYPE:MULTIPOLYGON DIMS:2 
+(1 row)
+
+COMMIT
+Shapefile type: PolygonZ
+Postgis type: MULTIPOLYGON[2]
+BEGIN
+CREATE TABLE
+COMMIT
+TRUNCATE TABLE
+SELECT 67906
+DROP TABLE
+Shapefile type: Polygon
+Postgis type: MULTIPOLYGON[2]
+SET
+SET
+BEGIN
+CREATE TABLE
+ALTER TABLE
+                   addgeometrycolumn                    
+--------------------------------------------------------
+ nhd.catchment.geom SRID:4269 TYPE:MULTIPOLYGON DIMS:2 
+(1 row)
+
+COMMIT
+Shapefile type: Polygon
+Postgis type: MULTIPOLYGON[2]
+Shapefile type: Polygon
+Postgis type: MULTIPOLYGON[2]
+                addgeometrycolumn                 
+--------------------------------------------------
+ nhd.wbd.geom SRID:4269 TYPE:MULTIPOLYGON DIMS:2 
+(1 row)
+
+Shapefile type: Polygon
+Postgis type: MULTIPOLYGON[2]
